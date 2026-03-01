@@ -1,0 +1,37 @@
+# Kelvin Capital .gitignore
+
+# API Keys and Secrets
+*.key
+*.secret
+.env
+.env.local
+.github_token
+api_keys.txt
+
+# Logs
+*.log
+/tmp/
+logs/
+
+# Data files with sensitive info
+trades/live/
+config/secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+*.swp
