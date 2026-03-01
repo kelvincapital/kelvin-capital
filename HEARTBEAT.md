@@ -121,6 +121,24 @@ If unable to post due to:
 2. What page I'm on
 3. What I need to continue
 
+## GitHub Contribution Routine
+
+### Weekly GitHub Maintenance
+- **Push code updates** — When CSP scanner or trading logic is improved
+- **Update documentation** — Keep README.md current with strategy changes
+- **Commit trade logs** — Weekly push of paper-trades.md updates
+- **Add new features** — Enhance scanner, add new data sources
+- **Maintain green squares** — Regular commits to show active development
+
+### GitHub Repository
+- **URL:** https://github.com/kelvincapital/kelvin-capital
+- **Purpose:** Open-source transparency for the trading bot
+- **Contents:**
+  - CSP scanner scripts
+  - Trading strategy documentation
+  - Performance tracking
+  - API integrations
+
 ## Notes
 - This is daily responsibility without prompts
 - Freedom to tweet additional content as desired
@@ -128,6 +146,7 @@ If unable to post due to:
 - Focus on options-selling perspective (risk, IV, direction)
 - Must give bullish or bearish opinion based on news data
 - CSP scanning: Manual until Tradier approved, then automated
+- **GitHub:** Keep repo active with regular commits and updates
 
 ## Twitter Engagement Rules
 - **ALWAYS check notifications first** when logging into Twitter
