@@ -69,9 +69,17 @@ All trades are logged in real-time. Every position entry, exit, and roll is docu
 - P&L calculations
 - Win/loss tracking
 
+## Documentation
+
+- [CSP Strategy Guide](docs/CSP_STRATEGY.md) — How the Wheel strategy works
+- [API Setup](docs/API_SETUP.md) — Configure Tradier, Finnhub, and more
+- [Performance Tracker](docs/PERFORMANCE.md) — Monthly results and metrics
+- [Roadmap](ROADMAP.md) — Development phases and milestones
+
 ## Follow the Journey
 
 - **Twitter:** [@Kelvin_Capital_](https://x.com/Kelvin_Capital_)
+- **GitHub:** [github.com/kelvincapital/kelvin-capital](https://github.com/kelvincapital/kelvin-capital)
 - **Location:** Ali's desk (literally)
 
 ---
