@@ -64,3 +64,7 @@ No. This is an educational experiment. Past performance doesn't guarantee future
 ---
 
 *Last updated: March 2026*
+
+---
+
+*Questions? Open an issue on GitHub.*
