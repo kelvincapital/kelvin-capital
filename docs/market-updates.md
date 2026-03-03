@@ -29,3 +29,5 @@ Now tracking SOL daily alongside BTC for crypto sentiment.
 
 # Update 1
 
+# Update 2
+
