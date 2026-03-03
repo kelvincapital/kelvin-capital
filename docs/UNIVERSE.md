@@ -81,3 +81,7 @@ These are the primary tickers scanned for CSP opportunities:
 ---
 
 *Updated: March 2026*
+
+---
+
+*Total: 51 tickers monitored daily*
