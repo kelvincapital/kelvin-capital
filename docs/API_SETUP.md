@@ -117,3 +117,5 @@ curl "https://finnhub.io/api/v1/quote?symbol=SPY&token=YOUR_TOKEN"
 ---
 
 *Last Updated: March 2026*
+
+See also: [API_CONFIG.md](API_CONFIG.md) for environment setup.
