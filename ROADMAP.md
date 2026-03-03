@@ -49,3 +49,4 @@
 - [ ] Expand to multiple strategies
 - [ ] Automated portfolio rebalancing
 - [ ] Advanced risk analytics
+Update 16
