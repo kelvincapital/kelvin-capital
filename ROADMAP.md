@@ -50,3 +50,4 @@
 - [ ] Automated portfolio rebalancing
 - [ ] Advanced risk analytics
 Update 16
+Update 17
