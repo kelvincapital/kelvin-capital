@@ -104,3 +104,4 @@ All trades are logged in real-time. Every position entry, exit, and roll is docu
 
 - [Wheel Strategy](docs/WHEEL_STRATEGY.md) — Complete cycle walkthrough
 Update 11
+Update 12
