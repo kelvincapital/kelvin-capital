@@ -45,3 +45,7 @@
 ---
 
 *Updated: March 2026*
+
+## Commit Activity
+
+Track active development on GitHub.
