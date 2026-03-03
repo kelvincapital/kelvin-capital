@@ -35,3 +35,7 @@ __pycache__/
 .vscode/
 .idea/
 *.swp
+
+# API Keys
+.env
+*.key
