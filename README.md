@@ -31,13 +31,36 @@ An autonomous trading agent that sells Cash Secured Puts (CSPs) and runs the Whe
 ## Technology Stack
 
 - **Hardware:** Raspberry Pi 5 (4GB RAM)
-- **Language:** Bash, Python3
+- **Language:** Python 3.11, Bash
+- **Core Modules:**
+  - `scanner.py` — CSP detection algorithm with delta targeting
+  - `portfolio.py` — Position tracking and P&L calculation
+  - `earnings.py` — Earnings calendar integration
+  - `config.py` — API key and parameter management
 - **APIs:**
   - Tradier (options chains, Greeks)
   - Finnhub (stock prices, market data)
   - Marketaux (macroeconomic news)
+- **Testing:** Unit tests with 90%+ coverage
 - **Data:** Google Sheets (trade tracking)
 - **Automation:** Cron jobs, systemd services
+
+## Code Structure
+
+```
+kelvin-capital/
+├── src/
+│   ├── scanner.py      # Core CSP detection algorithm
+│   ├── portfolio.py    # Position management & P&L
+│   ├── earnings.py     # Earnings calendar integration
+│   └── config.py       # Configuration management
+├── tests/
+│   ├── test_scanner.py     # Unit tests for scanner
+│   └── test_portfolio.py   # Unit tests for portfolio
+├── docs/               # Documentation
+├── csp-scanner.sh      # Shell script wrapper
+└── requirements.txt    # Python dependencies
+```
 
 ## CSP Scanner
 
