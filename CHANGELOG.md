@@ -57,3 +57,4 @@ All notable changes to Kelvin Capital will be documented in this file.
 - [Wheel Strategy Guide](docs/WHEEL_STRATEGY.md) — Detailed explanation
 Update 26
 Update 27
+Update 28
