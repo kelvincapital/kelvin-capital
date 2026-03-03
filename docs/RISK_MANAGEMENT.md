@@ -47,3 +47,7 @@
 ---
 
 *Last reviewed: March 2026*
+
+## Position Adjustments
+
+When to roll, close, or adjust positions.
