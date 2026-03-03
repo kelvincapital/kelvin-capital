@@ -68,3 +68,7 @@ No. This is an educational experiment. Past performance doesn't guarantee future
 ---
 
 *Questions? Open an issue on GitHub.*
+
+## Can I contribute?
+
+Yes! Fork the repo, make changes, and submit a PR. All contributions welcome.
