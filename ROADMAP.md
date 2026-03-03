@@ -43,3 +43,9 @@
 **Updated:** March 2026  
 **Last Trade:** None  
 **Days Active:** 7
+
+## Phase 5: Scale (00K+)
+
+- [ ] Expand to multiple strategies
+- [ ] Automated portfolio rebalancing
+- [ ] Advanced risk analytics
