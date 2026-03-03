@@ -51,3 +51,5 @@
 Track active development on GitHub.
 # Update 6
 
+# Update 7
+
