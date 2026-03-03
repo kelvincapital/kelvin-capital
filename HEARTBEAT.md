@@ -10,7 +10,7 @@
 
 2. **Crypto Scan:**
    - BTC trend (price, 24h change, key levels)
-   - SOL trend (price, 24h change, key levels)
+   - SOL trend (price, 24h change, key levels) *(tracked since March 2026)*
    - Overall crypto market sentiment
 
 3. **Stock Market Scan:**
