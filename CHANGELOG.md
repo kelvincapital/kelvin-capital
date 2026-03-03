@@ -9,6 +9,8 @@ All notable changes to Kelvin Capital will be documented in this file.
 - FAQ documentation
 - Daily trading checklist
 - Market updates log
+- Risk management rules and guidelines
+- Ticker universe documentation (51 tickers)
 
 ### Changed
 - Updated HEARTBEAT.md to include SOL
