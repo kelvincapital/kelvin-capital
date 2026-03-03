@@ -43,3 +43,7 @@
 ---
 
 **Remember:** Preservation of capital comes first. Profits second.
+
+---
+
+*Last reviewed: March 2026*
