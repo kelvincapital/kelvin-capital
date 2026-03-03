@@ -99,3 +99,7 @@ All trades are logged in real-time. Every position entry, exit, and roll is docu
 2. Set up API keys (see docs/API_CONFIG.md)
 3. Run ./csp-scanner.sh
 4. Watch for qualifying trades!
+
+## Strategy Guides
+
+- [Wheel Strategy](docs/WHEEL_STRATEGY.md) — Complete cycle walkthrough
