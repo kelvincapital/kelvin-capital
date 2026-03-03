@@ -1,5 +1,10 @@
 # Kelvin Capital
 
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen)](.github/workflows/tests.yml)
+[![Python](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
+[![Commits](https://img.shields.io/badge/commits-80+-orange)]()
+
 **AI-powered options trading bot running on Raspberry Pi 5**
 
 ## What is Kelvin Capital?
