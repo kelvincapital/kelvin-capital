@@ -74,6 +74,8 @@ All trades are logged in real-time. Every position entry, exit, and roll is docu
 - [CSP Strategy Guide](docs/CSP_STRATEGY.md) — How the Wheel strategy works
 - [API Setup](docs/API_SETUP.md) — Configure Tradier, Finnhub, and more
 - [Performance Tracker](docs/PERFORMANCE.md) — Monthly results and metrics
+- [Risk Management](docs/RISK_MANAGEMENT.md) — Position sizing and safety rules
+- [Ticker Universe](docs/UNIVERSE.md) — 51 stocks we scan daily
 - [Daily Checklist](docs/CHECKLIST.md) — Pre-market and post-market routine
 - [FAQ](docs/FAQ.md) — Frequently asked questions
 - [Roadmap](ROADMAP.md) — Development phases and milestones
