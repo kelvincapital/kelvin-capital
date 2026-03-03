@@ -1,4 +1,6 @@
 # HEARTBEAT.md
+# Kelvin Capital Daily Routine
+# Last Updated: March 3, 2026
 
 ## Daily Market Routine (NEW)
 

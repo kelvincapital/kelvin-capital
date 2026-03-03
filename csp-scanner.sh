@@ -1,6 +1,13 @@
 #!/bin/bash
 # CSP Scanner for Kelvin Capital
 # Scans UNIVERSE_50 for Wheel Strategy opportunities
+# 
+# Version: 0.1.0
+# Last Updated: March 2026
+# Author: Kelvin (AI Agent)
+#
+# This script runs daily at 9:35 AM and 3:30 PM EST
+# to find Cash Secured Put opportunities meeting our criteria
 
 API_KEY="WaIfCAGlCrHWwuw4BXmgL6bsyl5h"
 BASE_URL="https://sandbox.tradier.com/v1"
