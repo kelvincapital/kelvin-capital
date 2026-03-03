@@ -136,3 +136,7 @@ Update 12
 Update 13
 Update 14
 Update 15
+
+## Architecture
+
+See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for system design and data flow.
