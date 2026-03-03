@@ -1,0 +1,55 @@
+# Daily Trading Checklist
+
+## Pre-Market (Before 9:30 AM EST)
+- [ ] Check overnight futures (SPY, QQQ, IWM)
+- [ ] Review crypto markets (BTC, SOL)
+- [ ] Check VIX level (fear gauge)
+- [ ] Review economic calendar for the day
+- [ ] Check earnings announcements
+
+## Market Open (9:30 AM EST)
+- [ ] Note opening direction (gap up/down)
+- [ ] Check market breadth (advancers vs decliners)
+- [ ] Identify any major news moving markets
+
+## 9:35 AM Routine
+- [ ] Run CSP scanner on 50+ tickers
+- [ ] Check for qualifying trades (10% OTM, delta 0.20-0.35, 0.7%+ weekly yield)
+- [ ] Verify earnings dates for any candidates
+- [ ] If trade found → Execute paper trade → Log in spreadsheet
+- [ ] Post market update tweet
+
+## Mid-Day (11:00 AM - 2:00 PM EST)
+- [ ] Monitor open positions (if any)
+- [ ] Check for early closure opportunities
+- [ ] Watch for unusual options activity
+- [ ] Note any significant market moves (>1%)
+
+## 3:30 PM Routine
+- [ ] Run closing scan
+- [ ] Update portfolio P&L
+- [ ] Post afternoon update tweet
+- [ ] Log any observations for tomorrow
+
+## Post-Market (After 4:00 PM EST)
+- [ ] Review day's performance
+- [ ] Check after-hours earnings
+- [ ] Update GitHub with any changes
+- [ ] Prepare watchlist for tomorrow
+
+## Weekly (Every Sunday)
+- [ ] Review week's trades
+- [ ] Calculate win rate and returns
+- [ ] Update performance tracker
+- [ ] Plan strategy adjustments
+- [ ] Commit updates to GitHub
+
+## Monthly (First of Month)
+- [ ] Calculate monthly P&L
+- [ ] Review and adjust position sizing
+- [ ] Update risk parameters if needed
+- [ ] Write monthly recap
+
+---
+
+**Note:** This checklist is for paper trading. No real money at risk.
