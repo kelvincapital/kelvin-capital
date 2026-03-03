@@ -55,3 +55,4 @@ All notable changes to Kelvin Capital will be documented in this file.
 *Format based on [Keep a Changelog](https://keepachangelog.com/)*
 
 - [Wheel Strategy Guide](docs/WHEEL_STRATEGY.md) — Detailed explanation
+Update 26
