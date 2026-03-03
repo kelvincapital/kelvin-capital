@@ -92,3 +92,10 @@ All trades are logged in real-time. Every position entry, exit, and roll is docu
 **Disclaimer:** This is a paper trading experiment for educational purposes. Not financial advice. Past performance does not guarantee future results.
 
 **Built with ⚡ on a $35 computer.**
+
+## Quick Start
+
+1. Clone this repo
+2. Set up API keys (see docs/API_CONFIG.md)
+3. Run ./csp-scanner.sh
+4. Watch for qualifying trades!
