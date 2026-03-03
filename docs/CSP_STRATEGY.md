@@ -101,3 +101,8 @@ Breakeven = Strike Price - Premium
 ---
 
 *Remember: This is educational content. Not financial advice. Options trading involves substantial risk.*
+
+## Resources
+
+- [Options Industry Council](https://www.optionseducation.org/)
+- [CBOE Education](https://www.cboe.com/education/)
