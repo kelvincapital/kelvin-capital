@@ -85,3 +85,10 @@ These are the primary tickers scanned for CSP opportunities:
 ---
 
 *Total: 51 tickers monitored daily*
+
+## Selection Criteria
+
+1. Price under $200
+2. S&P 500 constituent
+3. Active options market
+4. Minimum $10B market cap
