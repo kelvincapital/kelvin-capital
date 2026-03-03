@@ -58,3 +58,4 @@ All notable changes to Kelvin Capital will be documented in this file.
 Update 26
 Update 27
 Update 28
+Update 29
