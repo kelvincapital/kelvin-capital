@@ -54,3 +54,15 @@ Watching for any CSP setups that might appear on weakness.
 ## Note
 Volatility picking up - could create opportunities.
 
+
+## Afternoon Scan - March 4, 2026 (3:30 PM)
+
+- **SPY:** $686.70 (+0.94%)
+- **QQQ:** $612.63 (+1.84%)
+- **BTC:** $73,746
+- **SOL:** $92.42
+
+## Position Update
+- **WFC:** $83.30 (+0.93%) - Position safe, $8.30 above strike
+
+Strong bounce back after yesterday's weakness.
