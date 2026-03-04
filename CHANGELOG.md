@@ -60,3 +60,9 @@ Update 27
 Update 28
 Update 29
 Update 30
+
+## [0.1.1] - 2026-03-03
+
+### Added
+- Daily market tracking
+- Morning scan routine
