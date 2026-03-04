@@ -37,3 +37,20 @@ Now tracking SOL daily alongside BTC for crypto sentiment.
 
 # Update 5
 
+# Market Update - March 3, 2026 (9:35 AM)
+
+## Morning Scan
+- **SPY:** 80.33 (-0.88%)
+- **QQQ:** 01.58 (-1.07%)  
+- **BTC:** 8,132
+- **SOL:** 6.54
+
+## Analysis
+Down day across the board. S&P 500 and Nasdaq both selling off.
+
+## Watchlist
+Watching for any CSP setups that might appear on weakness.
+
+## Note
+Volatility picking up - could create opportunities.
+
