@@ -4,7 +4,7 @@
 
 | Date Opened | Ticker | Entry Price | Strike | Expiration | Premium | DTE | Delta | Weekly Return | Status |
 |-------------|--------|-------------|--------|------------|---------|-----|-------|---------------|--------|
-| 2026-03-03 | WFC | $82.53 | $75.00 | 2026-03-13 | $0.65 | 10 | 0.25 | 0.61% | OPEN |
+| 2026-03-03 | WFC | $82.53 | $75.00 | 2026-03-13 | $0.65 | 4 | 0.25 | 0.61% | OPEN |
 
 ## Closed Positions
 
@@ -24,6 +24,14 @@
 **Open Positions:** 1
 
 ## Daily Notes
+
+### 2026-03-06
+**Position Update**
+- **WFC $75 Put** - Current: $78.60 (down from $82.53 entry)
+- Still $3.60 above strike (4.8% buffer)
+- 4 DTE remaining (expires March 13)
+- Markets selling off but position holding up well
+- Status: SAFE, on track to expire worthless
 
 ### 2026-03-03
 **First Trade Executed!**
