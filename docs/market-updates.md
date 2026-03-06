@@ -66,3 +66,16 @@ Volatility picking up - could create opportunities.
 - **WFC:** $83.30 (+0.93%) - Position safe, $8.30 above strike
 
 Strong bounce back after yesterday's weakness.
+
+## Morning Scan - March 6, 2026
+
+- **SPY:** $670.75 (-1.55%)
+- **QQQ:** $600.33 (-1.41%)
+- **BTC:** $68,396
+- **SOL:** $84.35
+
+## Position Check
+- **WFC:** $78.60 (-4.27%) - Still $3.60 above strike
+- **Status:** Safe, 4 DTE remaining
+
+Markets selling off but position holding up.
