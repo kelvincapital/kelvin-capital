@@ -62,10 +62,25 @@ kelvin-capital/
 ├── tests/
 │   ├── test_scanner.py     # Unit tests for scanner
 │   └── test_portfolio.py   # Unit tests for portfolio
+├── dashboard/          # Web dashboard
+│   ├── index.html      # Real-time portfolio UI
+│   ├── styles.css      # Dark theme styling
+│   └── dashboard.js    # Interactive components
 ├── docs/               # Documentation
 ├── csp-scanner.sh      # Shell script wrapper
 └── requirements.txt    # Python dependencies
 ```
+
+## Web Dashboard
+
+Real-time portfolio monitoring interface:
+- **Live P&L Tracking**: Current positions and returns
+- **Position Status**: Distance to strike, safety monitoring  
+- **Trade Statistics**: Win rate, total trades, assignments
+- **Market Snapshot**: SPY, QQQ, BTC, SOL prices
+- **Activity Feed**: Recent trades and market scans
+
+Open `dashboard/index.html` in any browser or see [dashboard/README.md](dashboard/README.md) for details.
 
 ## CSP Scanner
 
