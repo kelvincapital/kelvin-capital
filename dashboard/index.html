@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelvin Capital Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <h1>Kelvin Capital</h1>
+            </div>
+            <div class="status-badge">
+                <span class="status-dot online"></span>
+                <span>Paper Trading</span>
+            </div>
+        </header>
+
+        <main>
+            <!-- Portfolio Overview -->
+            <section class="overview">
+                <h2>Portfolio Overview</h2>
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <span class="metric-label">Initial Capital</span>
+                        <span class="metric-value">$30,000</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-label">Current Value</span>
+                        <span class="metric-value" id="current-value">$30,065</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-label">Total P&L</span>
+                        <span class="metric-value positive" id="total-pnl">+$65</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-label">Return</span>
+                        <span class="metric-value positive" id="total-return">+0.22%</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Position Cards -->
+            <section class="positions">
+                <h2>Open Positions</h2>
+                <div class="position-list">
+                    <div class="position-card">
+                        <div class="position-header">
+                            <span class="ticker">WFC</span>
+                            <span class="position-type">Cash Secured Put</span>
+                        </div>
+                        <div class="position-details">
+                            <div class="detail">
+                                <span class="detail-label">Strike</span>
+                                <span class="detail-value">$75.00</span>
+                            </div>
+                            <div class="detail">
+                                <span class="detail-label">Current Price</span>
+                                <span class="detail-value">$82.11</span>
+                            </div>
+                            <div class="detail">
+                                <span class="detail-label">Buffer</span>
+                                <span class="detail-value positive">$7.11 (8.7%)</span>
+                            </div>
+                            <div class="detail">
+                                <span class="detail-label">Expiration</span>
+                                <span class="detail-value">Mar 13 (5 DTE)</span>
+                            </div>
+                            <div class="detail">
+                                <span class="detail-label">Premium</span>
+                                <span class="detail-value">$0.65</span>
+                            </div>
+                            <div class="detail">
+                                <span class="detail-label">Delta</span>
+                                <span class="detail-value">0.25</span>
+                            </div>
+                        </div>
+                        <div class="position-status safe">
+                            <span class="status-icon">✓</span>
+                            <span>Safe - Above Strike</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Trade Stats -->
+            <section class="stats">
+                <h2>Trading Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-value">1</span>
+                        <span class="stat-label">Total Trades</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">0</span>
+                        <span class="stat-label">Wins</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">0</span>
+                        <span class="stat-label">Losses</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">0%</span>
+                        <span class="stat-label">Win Rate</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">0</span>
+                        <span class="stat-label">Assigned</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">$7,500</span>
+                        <span class="stat-label">Capital Deployed</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Market Snapshot -->
+            <section class="market">
+                <h2>Market Snapshot</h2>
+                <div class="market-grid">
+                    <div class="market-item">
+                        <span class="market-symbol">SPY</span>
+                        <span class="market-price">$681.31</span>
+                        <span class="market-change negative">-0.08%</span>
+                    </div>
+                    <div class="market-item">
+                        <span class="market-symbol">QQQ</span>
+                        <span class="market-price">$607.72</span>
+                        <span class="market-change negative">-0.82%</span>
+                    </div>
+                    <div class="market-item">
+                        <span class="market-symbol">BTC</span>
+                        <span class="market-price">$70,765</span>
+                        <span class="market-change negative">-4.0%</span>
+                    </div>
+                    <div class="market-item">
+                        <span class="market-symbol">SOL</span>
+                        <span class="market-price">$90.27</span>
+                        <span class="market-change negative">-2.3%</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recent Activity -->
+            <section class="activity">
+                <h2>Recent Activity</h2>
+                <div class="activity-list">
+                    <div class="activity-item">
+                        <span class="activity-time">Mar 4, 3:30 PM</span>
+                        <span class="activity-text">Afternoon scan completed - markets mixed</span>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-time">Mar 4, 9:35 AM</span>
+                        <span class="activity-text">Morning scan - strong bounce back</span>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-time">Mar 3, 9:35 AM</span>
+                        <span class="activity-text trade">🎯 FIRST TRADE: WFC $75 Put opened</span>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-time">Mar 3, 3:30 PM</span>
+                        <span class="activity-text">Afternoon scan - markets red</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Kelvin Capital Dashboard • Running on Raspberry Pi 5</p>
+            <p>Last updated: <span id="last-updated">2026-03-05 09:00:00 EST</span></p>
+        </footer>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
