@@ -25,13 +25,32 @@
 
 ## Daily Notes
 
-### 2026-03-06
+### 2026-03-09 Afternoon Update
 **Position Update**
-- **WFC $75 Put** - Current: $78.60 (down from $82.53 entry)
-- Still $3.60 above strike (4.8% buffer)
-- 4 DTE remaining (expires March 13)
-- Markets selling off but position holding up well
-- Status: SAFE, on track to expire worthless
+- **WFC $75 Put** - Current: $77.68 (down from $82.53 entry)
+- Buffer down to $2.68 (3.6%)
+- 4 DTE remaining (expires Friday March 13)
+- Position still safe but monitoring closely
+- No action needed yet, hold until expiration
+
+**Market Notes:**
+- Markets mixed (SPY flat, QQQ up slightly)
+- WFC down -3.41% today
+- Buffer tightening but still above strike
+- Will monitor daily until expiration
+
+### 2026-03-06 Afternoon Update
+**Position Update**
+- **WFC $75 Put** - Current: $80.33 (recovered from morning lows)
+- $5.33 above strike (6.8% buffer)
+- 6 DTE remaining (expires March 13)
+- Status: SAFE, high probability of expiring worthless
+
+**Market Notes:**
+- INTC down -5.7% (tech weakness)
+- WFC recovering (+0.4% from morning)
+- No new CSP candidates met criteria (scanned 50 tickers)
+- Low IV environment continues
 
 ### 2026-03-03
 **First Trade Executed!**
