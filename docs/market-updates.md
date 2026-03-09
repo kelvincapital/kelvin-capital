@@ -79,3 +79,17 @@ Strong bounce back after yesterday's weakness.
 - **Status:** Safe, 4 DTE remaining
 
 Markets selling off but position holding up.
+
+## Afternoon Scan - March 9, 2026
+
+- **SPY:** $672.25 (-0.02%)
+- **QQQ:** $601.84 (+0.35%)
+- **BTC:** $68,992
+- **SOL:** $85.11
+
+## Position Update
+- **WFC:** $77.68 (-3.41%) - Buffer down to $2.68 (3.6%)
+- **Status:** WATCH - Getting close to strike
+- **DTE:** 4 days (expires Friday)
+
+Position still safe but buffer tightening. Monitoring closely.
