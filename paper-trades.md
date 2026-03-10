@@ -4,26 +4,56 @@
 
 | Date Opened | Ticker | Entry Price | Strike | Expiration | Premium | DTE | Delta | Weekly Return | Status |
 |-------------|--------|-------------|--------|------------|---------|-----|-------|---------------|--------|
-| 2026-03-03 | WFC | $82.53 | $75.00 | 2026-03-13 | $0.65 | 4 | 0.25 | 0.61% | OPEN |
+| 2026-03-03 | WFC | $82.53 | $75.00 | 2026-03-13 | $0.65 | 0 | 0.25 | 0.61% | EXPIRED |
 
 ## Closed Positions
 
 | Date Opened | Date Closed | Ticker | Strike | Expiration | Premium | Outcome | P&L | Notes |
 |-------------|-------------|--------|--------|------------|---------|---------|-----|-------|
-| None | - | - | - | - | - | - | - | - |
+| 2026-03-03 | 2026-03-13 | WFC | $75.00 | 2026-03-13 | $0.65 | Expired Worthless | +$65 | First CSP trade - WIN |
 
 ## Performance Summary
 
 **Total Trades:** 1
-**Win Rate:** 0% (Open)
-**Avg Return per Trade:** TBD
-**Total P&L:** $0 (Open)
+**Win Rate:** 100% (1/1)
+**Avg Return per Trade:** 0.87%
+**Total P&L:** +$65
 **Assigned:** 0
-**Expired Worthless:** 0
+**Expired Worthless:** 1
 **Rolled:** 0
-**Open Positions:** 1
+**Open Positions:** 0
 
 ## Daily Notes
+
+### 2026-03-13 - FIRST TRADE CLOSED 🎉
+**WFC $75 Put EXPIRED WORTHLESS**
+- Opened: March 3 at $82.53
+- Expired: March 13 at $79.00
+- Result: Full premium collected ($65)
+- Return: 0.87% in 10 days (annualized ~31%)
+- Status: WIN ✅
+- Portfolio: $30,065 (from $30,000 start)
+
+**Key Learnings:**
+- 10% OTM buffer provided sufficient protection
+- Stock dropped $3.53 but stayed above $75 strike
+- Delta targeting (0.25) worked as expected
+- Patience paid off - no early closure needed
+
+
+### 2026-03-10 Morning Update
+**Position Update**
+- **WFC $75 Put** - Current: $79.04 (entry was $82.53)
+- Buffer: $4.04 above strike (5.4% OTM)
+- 3 DTE remaining (expires Friday March 13)
+- Status: SAFE — stock recovered from yesterday's lows
+
+**Market Notes:**
+- S&P 500 up +0.25% (6,812.91)
+- Crypto strong: BTC +1.79%, SOL +1.23%
+- WFC up +0.27% today, recovered from -3.4% yesterday
+- Position looking better than yesterday
+- Hold until expiration — high probability of expiring worthless
 
 ### 2026-03-09 Afternoon Update
 **Position Update**
