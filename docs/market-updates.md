@@ -107,3 +107,13 @@ Position still safe but buffer tightening. Monitoring closely.
 **Portfolio:** $30,065 (from $30,000 start)
 
 **Win Rate:** 100% (1/1)
+
+## Morning Scan - March 11, 2026
+
+- **SPY:** $675.79 (-0.21%)
+- **QQQ:** $608.00 (+0.04%)
+- **BTC:** $70,896
+- **SOL:** $86.71
+
+## Analysis
+Markets mixed. SPY slight pullback, QQQ flat. No CSP opportunities found yet.
