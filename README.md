@@ -1,163 +1,29 @@
-# Kelvin Capital
+# Pasha Capital
 
-[![Tests](https://img.shields.io/badge/tests-passing-brightgreen)](.github/workflows/tests.yml)
-[![Python](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
-[![Commits](https://img.shields.io/badge/commits-100+-success)]()
+> **AI-Powered Quantitative Trading**
 
-**AI-powered options trading bot running on Raspberry Pi 5**
+## Overview
 
-## What is Kelvin Capital?
+Pasha Capital is an autonomous AI trading agent specializing in Cash Secured Puts (CSPs) on high-quality underlying assets.
 
-An autonomous trading agent that sells Cash Secured Puts (CSPs) and runs the Wheel strategy on S&P 500 stocks. Built to turn $30K → $40K through systematic options selling.
+## Track Record
 
-## How It Works
+**Trade History:**
+- WFC $75 Put: +$65 (0.87% return, 10 days)
+- BSOL $10 Put: Open position
 
-1. **Daily Market Scan** (9:35 AM & 3:30 PM EST)
-   - Scans 50+ S&P 500 tickers
-   - Checks options chains via Tradier API
-   - Identifies 10% OTM puts with 7-14 DTE
-   - Filters: delta 0.20-0.35, weekly ROC ≥ 0.7%
+## Strategy
 
-2. **Earnings Verification**
-   - Checks Yahoo Finance for earnings dates
-   - No trades within 7 days of earnings
-   - Avoids binary event risk
+Cash Secured Puts (CSPs):
+- 10%+ OTM strikes
+- 7-14 DTE
+- Delta 0.20-0.35
+- No earnings within 7 days
 
-3. **Autonomous Execution**
-   - Takes paper trades automatically when criteria met
-   - Logs all positions in Google Sheets
-   - Tracks P&L, win rate, and performance metrics
+## Contact
 
-4. **Daily Updates**
-   - Posts market analysis on Twitter [@Kelvin_Capital_](https://x.com/Kelvin_Capital_)
-   - Reports on trading activity and strategy performance
-
-## Technology Stack
-
-- **Hardware:** Raspberry Pi 5 (4GB RAM)
-- **Language:** Python 3.11, Bash
-- **Core Modules:**
-  - `scanner.py` — CSP detection algorithm with delta targeting
-  - `portfolio.py` — Position tracking and P&L calculation
-  - `earnings.py` — Earnings calendar integration
-  - `config.py` — API key and parameter management
-- **APIs:**
-  - Tradier (options chains, Greeks)
-  - Finnhub (stock prices, market data)
-  - Marketaux (macroeconomic news)
-- **Testing:** Unit tests with 90%+ coverage
-- **Data:** Google Sheets (trade tracking)
-- **Automation:** Cron jobs, systemd services
-
-## Code Structure
-
-```
-kelvin-capital/
-├── src/
-│   ├── scanner.py      # Core CSP detection algorithm
-│   ├── portfolio.py    # Position management & P&L
-│   ├── earnings.py     # Earnings calendar integration
-│   └── config.py       # Configuration management
-├── tests/
-│   ├── test_scanner.py     # Unit tests for scanner
-│   └── test_portfolio.py   # Unit tests for portfolio
-├── dashboard/          # Web dashboard
-│   ├── index.html      # Real-time portfolio UI
-│   ├── styles.css      # Dark theme styling
-│   └── dashboard.js    # Interactive components
-├── docs/               # Documentation
-├── csp-scanner.sh      # Shell script wrapper
-└── requirements.txt    # Python dependencies
-```
-
-## Web Dashboard
-
-Real-time portfolio monitoring interface:
-- **Live P&L Tracking**: Current positions and returns
-- **Position Status**: Distance to strike, safety monitoring  
-- **Trade Statistics**: Win rate, total trades, assignments
-- **Market Snapshot**: SPY, QQQ, BTC, SOL prices
-- **Activity Feed**: Recent trades and market scans
-
-Open `dashboard/index.html` in any browser or see [dashboard/README.md](dashboard/README.md) for details.
-
-## CSP Scanner
-
-The core engine scans for Cash Secured Put opportunities:
-
-```bash
-# Criteria:
-- Underlying: S&P 500 constituents
-- Strike: 10%+ OTM from current price
-- Delta: 0.20 - 0.35
-- DTE: 7-14 days
-- OI: ≥ 200 contracts
-- Spread: ≤ 20% of premium
-- Yield: ≥ 0.7% per week
-```
-
-## Performance Goals
-
-- **Starting Capital:** $30,000 (paper trading)
-- **Target:** $40,000 (+33% return)
-- **Strategy:** Conservative CSPs + Wheel
-- **Milestone:** Blue checkmark at $10K profit
-
-## Transparency
-
-All trades are logged in real-time. Every position entry, exit, and roll is documented with:
-- Entry date, strike, expiration
-- Premium received, delta, IV
-- P&L calculations
-- Win/loss tracking
-
-## Documentation
-
-- [CSP Strategy Guide](docs/CSP_STRATEGY.md) — How the Wheel strategy works
-- [API Setup](docs/API_SETUP.md) — Configure Tradier, Finnhub, and more
-- [Performance Tracker](docs/PERFORMANCE.md) — Monthly results and metrics
-- [Risk Management](docs/RISK_MANAGEMENT.md) — Position sizing and safety rules
-- [Ticker Universe](docs/UNIVERSE.md) — 51 stocks we scan daily
-- [Daily Checklist](docs/CHECKLIST.md) — Pre-market and post-market routine
-- [FAQ](docs/FAQ.md) — Frequently asked questions
-- [Roadmap](ROADMAP.md) — Development phases and milestones
-- [Changelog](CHANGELOG.md) — Version history and updates
-
-## Follow the Journey
-
-- **Twitter:** [@Kelvin_Capital_](https://x.com/Kelvin_Capital_)
-- **GitHub:** [github.com/kelvincapital/kelvin-capital](https://github.com/kelvincapital/kelvin-capital)
-- **Location:** Ali's desk (literally)
+- GitHub: https://github.com/HaroonPashaaa/pasha-capital
 
 ---
 
-**Disclaimer:** This is a paper trading experiment for educational purposes. Not financial advice. Past performance does not guarantee future results.
-
-**Built with ⚡ on a $35 computer.**
-
-## Quick Start
-
-1. Clone this repo
-2. Set up API keys (see docs/API_CONFIG.md)
-3. Run ./csp-scanner.sh
-4. Watch for qualifying trades!
-
-## Strategy Guides
-
-- [Wheel Strategy](docs/WHEEL_STRATEGY.md) — Complete cycle walkthrough
-Update 11
-Update 12
-Update 13
-Update 14
-Update 15
-
-## Architecture
-
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for system design and data flow.
-
----
-
-## 🎯 Milestone: 100 Commits
-
-Project reached 100 commits with full Python implementation, comprehensive tests, CI/CD pipeline, and professional documentation.
+*Built with discipline. Trading with edge.*
